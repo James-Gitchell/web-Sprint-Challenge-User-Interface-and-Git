@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+    
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -49,17 +50,41 @@ table {
 
 * {
     box-sizing: border-box;
-    .lamda{
-        margin:0 5%;
+    margin:0;
+    padding:0 auto;
+    max-width:100%;
+    border:1px solid gray;
+    
+    }
+    *{
+        border: 1 px solid grey;
     }
     .header{
         display:flex;
         justify-content:space-around;
+        margin: 0 auto;
+        padding: 4%
+    }
+ 
+    }
+    .nav{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+        border : 2px  dashed black;
+        padding: 5%;
+    }
+    .nav a{
+      display:inline-block;
+      justify-content:space-between;
+      padding:0 4%
+    }
     }
 }
-.lamda, .nav{
+/*.lamda, .nav{
     display:inline-block;
     width:40%;
+    text-size-adjust: 1.5rem;*/
 
 }
 
@@ -78,6 +103,7 @@ p {
     line-height: 1.4;
 }
 
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -112,16 +138,26 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+.boxes .box{
+    background-color: teal;
+}
+.box2{
+    background-color: gold;
+}
 
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    ;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.div .box{
+    background-color: teal;
+
 }
 
 .bottom-content {
