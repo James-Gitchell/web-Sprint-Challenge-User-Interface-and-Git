@@ -35,13 +35,41 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-2. Name two big differences between ```display: block;``` and ```display: inline;```.
+Semantic html is used to tell the code viewer where they are 
+in the code and what they are looking at. a couple examoles of 
+semantic html are the tags: <section> <header> <footer> <nav> etc...
 
-3. What are the 4 areas of the box model?
+2. Name two big differences between ```display: block;``` and ```display: inline;```. 
+
+a block element covers the whole section or line it is in and an inline 
+element has properties that float on its left and left side. Nothing can be displayed on the left and right side of a block element.
+
+3. What are the 4 areas of the box model? content, padding, border, margin
+
+box-model:  this is not the correct html usage but a reference to position
+          <margin>-------------------------------
+             <border> -----------------------I  I
+               <padding>-----------------I   I  I
+                 <conten>   content      I   I  I
+               </padding>----------------I   I  I
+            </border>------------------------I  I
+         </margin>   ---------------------------I
+
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Depends on if you are using row/ row-reverse for vertical
+or column/c-revers for horizontal display. The align itms works
+on the axis that is perpendicular to the main axis. so vertical axis align would move items left to right/right to left on reverse and horizontal display
+would move top to bottom/ bottom to top on reverse
+
 5. Explain why git is valuable to a team of developers.
+
+Git allows a team of developer to contribute to a project individually
+but at the same time. They can make changes while keeping the project live 
+or make changes without interfering with eachothers codes. The changes
+are mad on a clone of the original code "branch= developer" and contributions
+are inspected before gaining access to the main project
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

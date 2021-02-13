@@ -22,11 +22,12 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+    
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display:block;
 }
 body {
 	line-height: 1;
@@ -49,6 +50,18 @@ table {
 
 * {
     box-sizing: border-box;
+    margin:0;
+    padding:0 auto;
+    max-width:100%;
+    }
+   
+    }
+}
+/*.lamda, .nav{
+    display:inline-block;
+    width:40%;
+    text-size-adjust: 1.5rem;*/
+
 }
 
 html, body {
@@ -64,10 +77,45 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+} 
+/*.header, .nav{
+    width:0 10%;
+    background-color: grey;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;*/
+
+    
+}
+.header{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: baseline;
+}
+.nav{
+    width:40%;
+    display:flex;
+    justify-content:center ;
+    align-items:center;
 }
 
+.lamda{
+    display:flex;
+   justify-content:center;
+    width:  40%;
+     background-color: orange; 
+
+}
+
+ 
+}
+.imgjumbo{
+    display: flex;
+    justify-content:center;
+}
 .container {
-    width: 800px;
+    width: 2% 10% 2% 10%;
     margin: 0 auto;
 }
 
@@ -100,16 +148,26 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+.boxes .box{
+    background-color: teal;
+}
+.box2{
+    background-color: gold;
+}
 
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    ;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.div .box{
+    background-color: teal;
+
 }
 
 .bottom-content {
@@ -139,8 +197,20 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
 }
+.footer{
+    display:flex;
+    background-color: black;
+    
 
+}
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* This section is for about css*/
+
+.container{
+   width: 2% 10% 2% 2%;
 }
